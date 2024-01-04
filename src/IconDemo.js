@@ -1,7 +1,7 @@
 import React,{useState} from "react"
 import {View,TouchableOpacity,ScrollView,Text} from 'react-native'
 import ICON_SETS from "./icon-sets"
-import IconListDemo from './IconListDemo'
+import IconList from "./IconList"
  const IconDemo=()=>{
     const [currIcon,setCurrIcon] = useState(null)
     const onPress=(icon)=>{
